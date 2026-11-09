@@ -22,6 +22,8 @@
   <properties>
     <revision>1.4.3</revision>
     <changelist>-SNAPSHOT</changelist>
+    <!-- https://www.jenkins.io/doc/developer/plugin-development/choosing-jenkins-baseline/ -->
+    <jenkins.version>2.580.1</jenkins.version>
   </properties>
 
   <name>Bitbucket Build Status Notifier Plugin</name>
