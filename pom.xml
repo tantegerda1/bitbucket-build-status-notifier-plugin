@@ -27,9 +27,8 @@
     <jenkins.version>${jenkins.baseline}.1</jenkins.version>
   </properties>
 
-  <name>Bitbucket Build Status Notifier Plugin</name>
+  <name>Bitbucket Build Status Notifier Plugin (fork)</name>
   <description>Integrates Jenkins build status with BitBucket</description>
-  <url>https://github.com/jenkinsci/bitbucket-build-status-notifier-plugin</url>
 
   <licenses>
     <license>
@@ -42,14 +41,25 @@
     <developer>
       <id>amansilla</id>
       <name>Antonio Mansilla</name>
-      <email>antonio.mansilla@flagbit.de</email>
+      <roles>
+        <role>original author</role>
+      </roles>
     </developer>
   </developers>
 
+  <contributors>
+    <contributor>
+      <name>Ludwig Rafelsberger</name>
+      <roles>
+        <role>fork maintainer</role>
+      </roles>
+    </contributor>
+  </contributors>
+
   <scm>
-    <connection>scm:git:git://github.com/jenkinsci/bitbucket-build-status-notifier-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:jenkinsci/bitbucket-build-status-notifier-plugin.git</developerConnection>
-    <url>http://github.com/jenkinsci/bitbucket-build-status-notifier-plugin</url>
+    <connection>scm:git:git://github.com/tantegerda1/bitbucket-build-status-notifier-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:tantegerda1/bitbucket-build-status-notifier-plugin.git</developerConnection>
+    <url>https://github.com/tantegerda1/bitbucket-build-status-notifier-plugin</url>
     <tag>HEAD</tag>
   </scm>
 

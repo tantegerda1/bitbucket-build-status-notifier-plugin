@@ -1,4 +1,4 @@
-# Bitbucket Cloud build status notifier plugin for Jenkins - [![Build Status][jenkins-status]][jenkins-builds]
+# Bitbucket Cloud build status notifier plugin for Jenkins
 
 Every time you trigger a build, you don't have to log in to your build server to see if it passed or failed. Now
 you will be able to know when your build is passing right within the Bitbucket Cloud UI.
@@ -169,10 +169,6 @@ Parameter:
 
 Note that the `repoSlug` and `commitId` parameters work only when they are both specified.
 
-## Contributions
-
-Contributions are welcome! For feature requests and bug reports please read the following Wiki page for guidelines on [how to submit an issue][how-to-submit-issue].
-
 ## License
 
 The MIT License (MIT)
@@ -191,7 +187,3 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-[jenkins-builds]: https://ci.jenkins.io/job/plugins/job/bitbucket-build-status-notifier-plugin/job/master
-[jenkins-status]: https://ci.jenkins.io/buildStatus/icon?job=plugins/bitbucket-build-status-notifier-plugin/master
-[how-to-submit-issue]: https://wiki.jenkins-ci.org/display/JENKINS/How+to+report+an+issue
