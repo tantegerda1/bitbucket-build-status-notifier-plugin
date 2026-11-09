@@ -25,6 +25,10 @@
     <!-- https://www.jenkins.io/doc/developer/plugin-development/choosing-jenkins-baseline/ -->
     <jenkins.baseline>2.580</jenkins.baseline>
     <jenkins.version>${jenkins.baseline}.1</jenkins.version>
+
+    <!-- Do not run extra reporting for pmd -->
+    <!-- https://stackoverflow.com/questions/12038238/unable-to-locate-source-xref-to-link-to -->
+    <linkXRef>false</linkXRef>
   </properties>
 
   <name>Bitbucket Build Status Notifier Plugin (fork)</name>
