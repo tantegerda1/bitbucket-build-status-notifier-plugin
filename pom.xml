@@ -11,8 +11,13 @@
   </parent>
 
   <artifactId>bitbucket-build-status-notifier</artifactId>
-  <version>1.4.3-SNAPSHOT</version>
+  <version>${revision}${changelist}</version>
   <packaging>hpi</packaging>
+
+  <properties>
+    <revision>1.4.3</revision>
+    <changelist>-SNAPSHOT</changelist>
+  </properties>
 
   <name>Bitbucket Build Status Notifier Plugin</name>
   <description>Integrates Jenkins build status with BitBucket</description>
