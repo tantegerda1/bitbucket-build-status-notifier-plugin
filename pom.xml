@@ -20,7 +20,7 @@
   <packaging>hpi</packaging>
 
   <properties>
-    <revision>1.4.3</revision>
+    <revision>1.4.4</revision>
     <changelist>-SNAPSHOT</changelist>
     <!-- https://www.jenkins.io/doc/developer/plugin-development/choosing-jenkins-baseline/ -->
     <jenkins.baseline>2.580</jenkins.baseline>
