@@ -29,6 +29,9 @@
     <!-- Do not run extra reporting for pmd -->
     <!-- https://stackoverflow.com/questions/12038238/unable-to-locate-source-xref-to-link-to -->
     <linkXRef>false</linkXRef>
+
+    <spotbugs.effort>Max</spotbugs.effort>
+    <spotbugs.threshold>High</spotbugs.threshold>
   </properties>
 
   <name>Bitbucket Build Status Notifier Plugin (fork)</name>
