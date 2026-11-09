@@ -49,7 +49,7 @@ import org.jenkinsci.plugins.bitbucket.api.BitbucketApiService;
 import org.kohsuke.stapler.AncestorInPath;
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.QueryParameter;
-import org.kohsuke.stapler.StaplerRequest;
+import org.kohsuke.stapler.StaplerRequest2;
 import org.scribe.model.*;
 
 public class BitbucketBuildStatusNotifier extends Notifier {
@@ -182,7 +182,7 @@ public class BitbucketBuildStatusNotifier extends Notifier {
         }
 
         @Override
-        public boolean configure(StaplerRequest req, JSONObject formData) throws FormException {
+        public boolean configure(StaplerRequest2 req, JSONObject formData) throws FormException {
             req.bindJSON(this, formData.getJSONObject("bitbucket-build-status-notifier"));
             save();
 
